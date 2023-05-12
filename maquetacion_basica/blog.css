@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+    height: 51vw;
+}
+.marco{
+    width: 100%;
+    height: 5%;
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    align-items: center;
+}
+.home{
+    width: 33.333333333%;
+    height: 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    
+    }
+.galeria{
+    width: 33.333333333333%;
+    height: 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+
+    }
+.blog{
+    width: 33.333333333333333%;
+    height: 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    }
+.pagina{
+    width: 100%;
+    height: 95%;
+    
+}
+.titulo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.contenido{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+
+}
+.imagen{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+   
+}
+.texto{
+    width: 50%;
+    height: 80%;
+    
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    
+}
+img{
+    width: 95%;
+    height: 80%;
+}
+.margen1{
+    width: 100%;
+    height: 5%;
+}
+.margeniz{
+    width: 5%;
+    height: 100%;
+}
+.textocont{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    align-items: center;
+
+}
+.maregentexto{
+    width: 20%;
+    height: 20%;
+
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+    height: 51vw;
+}
+.marco{
+    width: 100%;
+    height: 5%;
+    border: 0px solid rgb(248, 5, 5);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    align-items: center;
+}
+.home{
+        width: 33.333333333%;
+    height: 100%;
+    border: 0px solid rgb(5, 252, 30);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    
+    }
+.galeria{
+           width: 33.333333333333%;
+    height: 100%;
+    border: 0px solid rgb(42, 0, 251);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    }
+.blog{
+           width: 33.333333333333333%;
+    height: 100%;
+    border: 0px solid rgb(219, 253, 0);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    }
+.contenido{
+     width: 90%;
+    height: 93%;
+    border: 0px solid rgb(0, 0, 0);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+
+.texto{
+     width: 60%;
+    height: 100%;
+    border: 0px solid rgb(92, 77, 77);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    align-items: center;
+
+}
+    .titulo{
+        width: 100%;
+        height: 20%;
+        border: 0px solid rgb(144, 133, 133);
+    }
+    .texto{
+        width: 100%;
+        height: 80%;
+        border: 0px solid rgb(144, 133, 133);
+   
+    }
+.imagen{
+     width: 40%;
+    height: 80%;
+    border: 0px solid rgb(228, 20, 159);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+   
+.margen{
+    width: 10%;
+    height: 10%;
+    border: 0px solid rgb(13, 217, 153); 
+}
+a{
+    text-decoration: none;
+}
