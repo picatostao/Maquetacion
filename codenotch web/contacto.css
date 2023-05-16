@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.cabecera{
+    width: 100%;
+    height: 5%;
+  
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:space-around;
+    background-color: black;
+}
+
+.navegacion{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:space-around;
+    background-color: rgb(0, 0, 255);
+}
+
+.equipo{
+    width: 20%;
+    height: 75%;
+}
+
+.contacta{
+    width: 20%;
+    height: 75%;
+}
+
+.titulo{
+    width: 100%;
+    height: 7%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: rgb(0, 0, 255);
+}
+
+.firstLine{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:space-around;
+    background-color:rgb(0, 0, 255);
+}
+
+.secondLine{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    background-color:rgb(0, 0, 255);
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+   
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+}
+button{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.footer{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:space-around;
+}
+.ig{
+    width: 10%;
+    height: 100%;
+    border: 3px ;
+    
+}
+
+.f{
+    width: 4%;
+    height: 100%;
+    border: 3px ;
+     
+}
