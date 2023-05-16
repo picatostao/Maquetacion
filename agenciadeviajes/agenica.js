@@ -18,32 +18,37 @@ console.log(user)
 
 function reserva(){
     let overbooking=[`canarias`,`mallorca`,`galicia`]
-    let name_= document.getElementById(`name`).value
-    let mail_= document.getElementById(`mail`).value
-    let dest_= document.getElementById(`dest`).value.toLowerCase()
-    let user_=[]
-    let viaje_={
-        nombre:name_,
-        correo:mail_,
-        dest:dest_,
-    }
+    if(user.includes.dest)
+    console.log(user)
+    document.getElementById("resp").innerHTML=viaje
+}
+    // let overbooking=[`canarias`,`mallorca`,`galicia`]
+    // let name_= document.getElementById(`name`).value
+    // let mail_= document.getElementById(`mail`).value
+    // let dest_= document.getElementById(`dest`).value.toLowerCase()
+    // let user_=[]
+    // let viaje_={
+    //     nombre:name_,
+    //     correo:mail_,
+    //     dest:dest_,
+    // }
 
     
-    if(overbooking.includes(dest_))
-    {   user.push(viaje_)
-        console.log(user)
-        document.getElementById("resp").innerHTML="lo sentimos "+name_+
-            " en este momento no disponemos de reservas en "+
-            dest_+" cuando tengamos reservas disponibles le enviaremos un correo a: "+mail_
-        }else if(name_==""||mail_=="" ||dest_==""){
-        document.getElementById("resp").innerHTML="por favor introduzca los datos en todos los campos"
+    // if(overbooking.includes(dest_))
+    // {   user.push(viaje_)
+    //     console.log(user)
+    //     document.getElementById("resp").innerHTML="lo sentimos "+name_+
+    //         " en este momento no disponemos de reservas en "+
+    //         dest_+" cuando tengamos reservas disponibles le enviaremos un correo a: "+mail_
+    //     }else if(name_==""||mail_=="" ||dest_==""){
+    //     document.getElementById("resp").innerHTML="por favor introduzca los datos en todos los campos"
 
-        }else{
-        document.getElementById("resp").innerHTML="muchas gracias "+name_+" en unos instantes recibirá un correo a "
-            +mail_+" con la solicitud de reserva"
-        }
-        document.getElementById("form").reset()
-    }
+    //     }else{
+    //     document.getElementById("resp").innerHTML="muchas gracias "+name_+" en unos instantes recibirá un correo a "
+    //         +mail_+" con la solicitud de reserva"
+    //     }
+    //     document.getElementById("form").reset()
+    // }
 
 
 // function reservaa(){
