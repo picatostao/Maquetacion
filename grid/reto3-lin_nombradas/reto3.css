@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.reto3{
+    height: 401px;
+    width: 794px;
+    display: grid;
+    grid-template-columns: [x0]2fr[x1]1fr[x2]1fr[x3];
+    grid-template-rows: [y0]1fr[y1]2fr[y2]4fr[y3]1fr[y4];
+}
+.header{
+    grid-column-start: x0;
+    grid-column-end: x4;
+    grid-row-start: y0;
+    grid-row-end: y1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.contenido{
+    grid-column-start: x0;
+    grid-column-end: x2;
+    grid-row-start: y1;
+    grid-row-end: y2;
+    background-color: rgb(0, 49, 237);
+    display: grid;
+    grid-template-columns: [x0]6px[x1]1fr[x2]13px[x3];
+    grid-template-rows: [y0]13px[y1]1fr[y2]3px[y3];
+
+}
+.texto1{
+    grid-column-start: x0;
+    grid-column-end: x1;
+    grid-row-start: y2;
+    grid-row-end: y3;
+    background-color: rgb(0, 49, 237);
+    display: grid;
+    grid-template-columns: [x0]6px[x1]1fr[x2]2px[x3];
+    grid-template-rows: [y0]3px[y1]1fr[y2]13px[y3];
+}
+.texto2{
+    grid-column-start: x1;
+    grid-column-end: x2;
+    grid-row-start: y2;
+    grid-row-end: y3;
+    background-color: rgb(0, 49, 237);
+    display: grid;
+    grid-template-columns: [x0]2px[x1]1fr[x2]13px[x3];
+    grid-template-rows: [y0]3px[y1]1fr[y2]13px[y3];
+}
+.footer{
+    grid-column-start: x0;
+    grid-column-end: x1;
+    grid-row-start: y3;
+    grid-row-end: y4;
+    background-color: rgb(98, 29, 198);
+    display: grid;
+    grid-template-columns: [x0]4px[x1]1fr[x2]2px[x3];
+    grid-template-rows: [y0]4px[y1]1fr[y2]4px[y3];
+}
+.contacto{
+    grid-column-start: x1;
+    grid-column-end: x4;
+    grid-row-start: y3;
+    grid-row-end: y4;
+    background-color: rgb(98, 29, 198);
+    display: grid;
+    grid-template-columns: [x0]2px[x1]1fr[x2]4px[x3];
+    grid-template-rows: [y0]4px[y1]1fr[y2]4px[y3];   
+}
+.menu{
+    grid-column-start: x2;
+    grid-column-end: x4;
+    grid-row-start: y1;
+    grid-row-end: y3;
+    background-color: rgb(0, 210, 159);
+    display: grid;
+    grid-template-columns: [x0]1fr[x1];
+    grid-template-rows: [y0]1fr[y1]1fr[y2]1fr[y3]1fr[y4];
+}
+.menu_{
+    grid-column-start: x0;
+    grid-column-end: x1;
+    grid-row-start: y0;
+    grid-row-end: y1;
+    display: grid;
+    grid-template-columns: [x0]8px[x1]1fr[x2]8px[x3];
+    grid-template-rows: [y0]8px[y1]1fr[y2]2px[y3];
+}
+.menu1{
+    grid-column-start: x0;
+    grid-column-end: x1;
+    grid-row-start: y1;
+    grid-row-end: y2;
+    display: grid;
+    grid-template-columns: [x0]8px[x1]1fr[x2]8px[x3];
+    grid-template-rows: [y0]2px[y1]1fr[y2]2px[y3];
+}
+.menu2{
+    grid-column-start: x0;
+    grid-column-end: x1;
+    grid-row-start: y2;
+    grid-row-end: y3;
+    display: grid;
+    grid-template-columns: [x0]8px[x1]1fr[x2]8px[x3];
+    grid-template-rows: [y0]2px[y1]1fr[y2]2px[y3];
+}
+.menu3{
+    grid-column-start: x0;
+    grid-column-end: x1;
+    grid-row-start: y3;
+    grid-row-end: y4;
+    display: grid;
+    grid-template-columns: [x0]8px[x1]1fr[x2]8px[x3];
+    grid-template-rows: [y0]2px[y1]1fr[y2]8px[y3];
+    
+
+}
+.cont{
+    grid-column-start: x1;
+    grid-column-end: x2;
+    grid-row-start: y1;
+    grid-row-end: y2;
+    border: 1px solid white;
+    color: white;
+    text-align:justify;
+    
+    
+}
+.cont_{
+    grid-column-start: x1;
+    grid-column-end: x2;
+    grid-row-start: y1;
+    grid-row-end: y2;
+    background-color: black;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.cont_x{
+    grid-column-start: x1;
+    grid-column-end: x2;
+    grid-row-start: y1;
+    grid-row-end: y2;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

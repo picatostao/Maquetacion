@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.reto4{
+    height: 383px;
+    width: 758px;
+    display: grid;
+    grid-template-areas:
+    "header header imagen"
+    "area1 area1 area1"
+    "footer footer footer" ;
+}
+.head{
+    grid-area: header;
+    background-color: black;
+    height: 57px;
+    width: 522px;
+    text-align: center;
+}
+.imag{
+    grid-area: imagen;
+    background-color: rgb(229, 10, 10);
+    height: 57px;
+    width: 236px;
+    text-align: center;
+}
+.area2{
+    height: 265px;
+    grid-area: area1;
+    display:grid;
+    grid-template-areas:
+    "izquierda arriba"
+    "izquierda abajo" ;
+}
+.izquierda{
+    grid-area: izquierda;
+    background-color: blue;
+    display: grid;
+    grid-template-areas: 
+    "arriba"
+    "centro"
+    "abajo";
+}
+.aside{
+    height: 75px;
+    width: 252;
+    grid-area: arriba;
+    background-color: rgb(213, 213, 225);
+}
+.nan{
+    height: 95px;
+    width: 252;
+    grid-area: centro;
+}
+.aside2{
+    height: 75px;
+    width: 252;
+    grid-area: abajo;
+    background-color:  rgb(213, 213, 225);
+}
+.contenido{
+    grid-area: arriba;
+    background-color: blueviolet;
+}
+.texto{
+    grid-area: abajo;
+    background-color: chartreuse;
+}
+.area3{
+    grid-area: footer;
+    background-color: red;
+    height: 63px;
+    text-align: center;
+}
