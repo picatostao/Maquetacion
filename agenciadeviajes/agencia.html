@@ -18,10 +18,12 @@
     </div>
         <div class="formulario"> 
             <form action="" id="form">
-                <p>NOMBRE:</P><input type="nombre"  style=" width: 1000px; height: 35px; background-color: cadetblue ;font-size: x-large;text-align: center;" id="name"><br>
-                <p>CORREO ELECTRONICO:</P><input type="correo" id="mail" style="width: 1000px; height: 35px; background-color: cadetblue ;font-size: x-large;text-align: center;" style="background-color: cadetblue;" ><br>
-                <p>¿A QUE COMUNIDAD QUIERES VIAJAR?</p><input type="nombre" id="dest" style="width: 1000px; height: 35px; background-color: cadetblue ;font-size: x-large;text-align: center;"><br><br>
-                <button type="button" onclick="getuser()">solicitar información</button>
+                <p>NOMBRE:</P><input type="nombre"id="name"  style=" width: 1000px; height: 35px; background-color: cadetblue ;font-size: x-large;text-align: center;"><br>
+                <p>ORIGEN:</P><input type="correo" id="orig" style="width: 1000px; height: 35px; background-color: cadetblue ;font-size: x-large;text-align: center;" style="background-color: cadetblue;" ><br>
+                <p>¿A QUE COMUNIDAD QUIERES VIAJAR?</p><input type="dest" id="dest" style="width: 1000px; height: 35px; background-color: cadetblue ;font-size: x-large;text-align: center;"><br><br>
+                <p>NUMERO DE PERSONAS:</P><input type="numPers"id="num"  style=" width: 1000px; height: 35px; background-color: cadetblue ;font-size: x-large;text-align: center;"><br>
+                    <p>FECHA DE RESERVA:</P><input type="date"id="date"  style=" width: 1000px; height: 35px; background-color: cadetblue ;font-size: x-large;text-align: center;"><br>
+                    <button type="button" onclick="getuser()">solicitar información</button>
                 <button type="button" onclick="reserva()">reserva <br> ya</button>
             </form>
        </div>
