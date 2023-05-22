@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction:column; 
+    align-items:center;
+    align-content: center; 
+    justify-content: space-around; 
+}
+.head{
+    width: 390px;
+    height: 180px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.menu{
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+}
+.navPro{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px; 
+}   
+.info{
+    height:2980px;
+    width:1490px;  
+    display: flex;
+    flex-direction:row; 
+    align-content: center;
+    justify-content:center;        
+}
+
+#boxId{
+    height: auto;
+    width: 900px;
+    display: flex;
+    flex-direction:column; 
+    align-items:center;
+    align-content:center; 
+    text-align: center;
+    color: white;
+    background-color: black;  
+    justify-content:center;
+}
+#boxIns{
+    height: auto;
+    width: 900px;
+    display: flex;
+    flex-direction:column; 
+    align-items:center;
+    align-content: center; 
+    text-align: center;
+    color: white;
+    background-color: black;  
+    justify-content:center;  
+    
+}
+.contenido{
+    height: 2490px;
+    width: auto;
+    background-color:black;
+    display: flex;
+    flex-direction:column; 
+    align-items:center;
+    justify-content:space-between;
+}
+.margL{
+    height: 4233px;
+    width: 600vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.margR{
+    height: 4233px;
+    width: 600vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.marg_{
+    height: 1333px;
+    width: 250px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.peli{
+    background-color: black;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    height: auto;
+    width: 550px;
+    border-top: solid white;
+    border-top-style:double;
+    border-bottom-style:double;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+.scndLine{
+    height: 800px;
+    width: 1490px;
+    display: flex;
+    flex-direction:row; 
+    align-items:flex-start;
+    justify-content:center;
+    background-color: black;
+}
+.form{
+    width: 900px;
+    height: 900px;
+    display:flex;
+    flex-direction:column; 
+    align-items:center;
+    justify-content:center;
+    border: 1px solid white;
+}
+img{
+    max-width: 90%;
+    max-height: 100%;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 0px;
+    color:black;
+}
+.input{
+    color: white;
+    background-color: black;
+    text-align: center; 
+}
+a{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 875px) {
+    .marg_{
+        display: none;
+    
+    }
+    .margR{
+        display: none;
+    
+    }
+    .margL{
+        display: none;
+    
+    }
+    
+
+    main{
+        width: 875px;
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-direction:column; 
+        align-items:center;
+        align-content: center;
+        justify-content: none;  
+    }
+}
